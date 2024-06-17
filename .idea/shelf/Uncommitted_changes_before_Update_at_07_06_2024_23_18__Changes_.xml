@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_07_06_2024_23_18_[Changes]" date="1717791500955" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_06_2024_23_18_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 07.06.2024 23:18 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/jm/task/core/jdbc/service/UserService.class" />
+    <option name="AFTER_PATH" value="target/classes/jm/task/core/jdbc/service/UserService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_06_2024_23_18_[Changes]/UserService.class" />
+  </binary>
+</changelist>
