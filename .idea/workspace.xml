@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d96005-9e82-4352-9ef4-13cd29a48d6c" name="Changes" comment="Check1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="b5d96005-9e82-4352-9ef4-13cd29a48d6c" name="Changes" comment="Delete target directory">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86b63448-aa0e-43a8-9607-d6140d609218.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/86b63448-aa0e-43a8-9607-d6140d609218.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jm/task/core/jdbc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jm/task/core/jdbc/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jm/task/core/jdbc/dao/UserDaoJDBCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jm/task/core/jdbc/dao/UserDaoJDBCImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jm/task/core/jdbc/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jm/task/core/jdbc/service/UserServiceImpl.class" afterDir="false" />
@@ -30,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -64,6 +63,11 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Util.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.TaskJDBC [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.TaskJDBC [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.TaskJDBC [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.TaskJDBC [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.TaskJDBC [verify].executor&quot;: &quot;Run&quot;,
     &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender configuration&quot;,
     &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -173,7 +177,19 @@
       <workItem from="1717571216812" duration="1759000" />
       <workItem from="1717679970940" duration="2646000" />
       <workItem from="1717683153859" duration="3499000" />
-      <workItem from="1717790930862" duration="393000" />
+      <workItem from="1717790930862" duration="941000" />
+      <workItem from="1718531305537" duration="2467000" />
+      <workItem from="1718533901086" duration="598000" />
+      <workItem from="1718534516972" duration="292000" />
+      <workItem from="1718535071591" duration="552000" />
+      <workItem from="1718535684783" duration="15000" />
+      <workItem from="1718535713368" duration="1402000" />
+      <workItem from="1718538526534" duration="7365000" />
+      <workItem from="1718605128348" duration="1088000" />
+      <workItem from="1718606258079" duration="797000" />
+      <workItem from="1718607083269" duration="83000" />
+      <workItem from="1718607188165" duration="292000" />
+      <workItem from="1718607862151" duration="351000" />
     </task>
     <task id="LOCAL-00001" summary="Grigory Nitsevich">
       <option name="closed" value="true" />
@@ -303,7 +319,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717572623769</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Check2">
+      <option name="closed" value="true" />
+      <created>1717791380910</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717791380910</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1717791634611</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717791634611</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Delete target directory">
+      <option name="closed" value="true" />
+      <created>1717791729834</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717791729834</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,8 +362,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Grigory Nitsevich" />
-    <MESSAGE value="Check2" />
     <MESSAGE value="Check1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check1" />
+    <MESSAGE value="Check2" />
+    <MESSAGE value="Delete target directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete target directory" />
   </component>
 </project>
