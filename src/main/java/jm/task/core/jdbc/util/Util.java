@@ -1,5 +1,7 @@
 package jm.task.core.jdbc.util;
 
+import org.hibernate.Session;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
